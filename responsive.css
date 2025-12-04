@@ -1,0 +1,69 @@
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    padding: 12px;
+    gap: 20px;
+  }
+
+  .gauche {
+    max-width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(97, 125, 92, 0.3);
+  }
+
+  .profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .photo-profil {
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-top: 8px;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  ul {
+    text-align: center;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    margin: 4px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .droite {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .droite img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
